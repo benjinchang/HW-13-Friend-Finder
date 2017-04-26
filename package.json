@@ -1,0 +1,25 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "description": "Dating app that will take in results from your users' survey and compare answers from other users. Will display the name and picture of the user with the best overall match.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjinchang/HW-13-Friend-Finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjinchang/HW-13-Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/benjinchang/HW-13-Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  }
+}
