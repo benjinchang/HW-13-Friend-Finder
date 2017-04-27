@@ -26,11 +26,11 @@ User will answer 10 questions of their choosing. Each question will be answered 
 - Create 10 questions for user to answer for compatibility
 - Have a server.js file for the basic npm packages used. (express, body-parser, path)
 - Have a htmlRoutes.js that contains two routes 
-1. A get route to /survey that displays the survey page 
-2. default use route that leads to home.html which displays the home page
+	1. A get route to /survey that displays the survey page 
+	2. default use route that leads to home.html which displays the home page
 - Have an apiRoutes.js file that contains two routes
-1. A get route to /api/friends that displays a JSON of all possible matches
-2. A post routes /api/friends that will handle incoming survey results. This route will also handle the compatibility logic
+	1. A get route to /api/friends that displays a JSON of all possible matches
+	2. A post routes /api/friends that will handle incoming survey results. This route will also handle the compatibility logic
 - Save data in the app in an array of objects
 
 ## Technologies Used
