@@ -9,7 +9,7 @@ User will answer 10 questions of their choosing. Each question will be answered 
 
 ## Requirements
 - Have data structure follow in the following format
--FriendFinder
+- FriendFinder
 	- app
 		- data
 			- friends.js
