@@ -2,9 +2,10 @@
   "name": "files",
   "version": "1.0.0",
   "description": "Dating app that will take in results from your users' survey and compare answers from other users. Will display the name and picture of the user with the best overall match.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "chosen-js": "^1.7.0",
     "express": "^4.15.2",
     "mysql": "^2.13.0",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sequelize": "^3.30.4"
   }
 }
