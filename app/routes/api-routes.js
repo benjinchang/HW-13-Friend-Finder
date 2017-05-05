@@ -46,7 +46,7 @@ function friendsList () {
     console.log("User Data:");
     console.log(req.body);
 
-    Chirp.create({
+    userData.create({
       name: req.body.name,
       photo_link: req.body.photo_link,
       q1: req.body.q1,

@@ -3,7 +3,7 @@ var Sequelize = require("sequelize");
 // sequelize (lowercase) references our connection to the DB.
 var sequelizeInfo = require("../config/connection.js");
 
-var userData = sequelizeInfo.define("user", {
+var userData = sequelizeInfo.define("friendslist", {
   name: {
     type: Sequelize.STRING
   },
