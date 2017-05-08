@@ -2,7 +2,7 @@
 Dating app that will take in results from your users' survey and compare answers from other users. Will display the name and picture of the user with the best overall match.
 
 ## Live Link
-- https://benjinchang.github.io/HW-13-Friend-Finder/
+- https://stark-brushlands-25858.herokuapp.com/
 
 ## Description on how to use the app
 User will answer 10 questions of their choosing. Each question will be answered on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. User will then be matched with the most compatible friend.
@@ -41,12 +41,15 @@ User will answer 10 questions of their choosing. Each question will be answered 
 - NPM
 - Node
 - Node Express
+- MySQL
+- Sequelize
+- Heroku
 
 ## Code Explaination
 User will be asked a 10 question survey to fill out. Responses will be saved into a mysql database. User will answer from 1 to 5. Response will be saved as an array of object.
 
 server.js will require the specified npm packages needed for this application
-htmlRoutes.js will route client to the specific html page
+htmlRoutes.js will route client to the html pages (home and survey)
 apiRoutes.js will route to friends page to display all the possible friends. Will also handle the new friend entries made
 
 Determine the most compatible friend by comparing the differences from other users question by question. Differences will then be added up to calculate the total difference. Users with the lowest difference will be match
